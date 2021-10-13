@@ -15,6 +15,7 @@ header{
     grid-template-rows: 1;
 
     z-index: 999;
+    position: fixed;
 }
 
 div.sub-header{
@@ -126,9 +127,113 @@ div.título1{
 
 /*sección1*/
 
+.sección1{
+    padding-top: 60px;
+}
+
 .sección1 img{
-    width: 800px;
+    margin: 0 auto;
+    display: block;
+}
+
+/*sección2*/
+.sección2{
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.sección2 p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    line-height: 2em;
+    text-align: justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*sección3*/
+.sección3{
+    max-width: 920px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.planes{
+    margin: 20px;
+    margin-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: black 0.1em 0.2em 0.4em;;
+}
+
+.planes:hover{
+    transform: translateY(-20px);
+}
+
+.planes h2{
+    color: orange;
+    margin-bottom: 30px;
+}
+
+.planes li{
+    margin-top: 40px;
+    line-height: 2em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 
+.llamada-acción{
+    background: orange;
+}
+
+.sub-llamada-acción{
+    max-width: 920px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    text-align: center;
+}
+
+.sub-llamada-acción h1{
+    margin-bottom: 40px;
+}
+
+.sub-llamada-acción p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.sub-llamada-acción a{
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    color: orange;
+    font-size: 20px;
+}
+
+.sub-llamada-acción a:hover{
+    color: orangered;
+    background: rgb(212, 212, 212);
+}
+
 /*Finaliza Contenido Total*/
+
+/*Diseño Responsive*/
+
+@media (max-width:768px) {
+    .sección1 img{
+        width: 300px;
+    }
+
+    .sección2 p{
+        margin: 40px;
+    }
+
+}
