@@ -10,7 +10,7 @@ body{
 /*Estilo Menú*/
 header{
     width: 100%;
-    background: #0288D1;
+    background: orange;
     display: grid;
     grid-template-rows: 1;
 
@@ -100,7 +100,7 @@ div.título1{
 
     .menu{
         position: absolute;
-        background: #039BE5;
+        background: orange;
         width: 70%;
         margin-left: -70%;
         transition: all 0.5s;
@@ -120,3 +120,15 @@ div.título1{
 }
 
 /*Finaliza Estilo Menú*/
+
+
+/*Inicia Contenido Total*/
+
+/*sección1*/
+
+.sección1 img{
+    width: 800px;
+}
+
+
+/*Finaliza Contenido Total*/
