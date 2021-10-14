@@ -149,6 +149,63 @@ div.título1{
 
 /*Finaliza portada*/
 
+
+/*Inicia sección1*/
+
+/*Carrusel*/
+
+#carrusel{
+    height: 300px;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.itemCarrusel{
+    height: 300px;
+    position: relative;
+}
+
+.flechasCarrusel{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flechasCarrusel i{
+    padding: 20px;
+}
+
+.tarjetaCarrusel{
+    height: 100%;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.contenedor-caja{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.caja{
+    border: 3px solid orange;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+#carrusel a{
+    text-decoration: none;
+}
+
+#carrusel i{
+    color: black;
+}
+
+/*Finaliza sección1*/
+
 /*INICIA CONTENIDO TOTAL*/
 
 
