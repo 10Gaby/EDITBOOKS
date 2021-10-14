@@ -202,6 +202,8 @@ div.título1{
     border: 3px solid orange;
     border-radius: 8px;
     margin-right: 20px;
+    text-align: center;
+    padding: 20px;
 }
 
 #carrusel a{
@@ -211,6 +213,7 @@ div.título1{
 #carrusel i{
     color: black;
 }
+
 
 /*Finaliza sección1*/
 
@@ -256,5 +259,31 @@ footer{
 
     .bloque h1{
         line-height: 450px;
+    }
+
+    .contenedor-caja{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .flechasCarrusel{
+        height: 100%;
+        width: 100%;
+    
+        display: flex;
+        padding-top: 180px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #carrusel{
+        height: 500px;
+        overflow: hidden;
+        margin-top: 60px;
+    }
+
+    .itemCarrusel{
+        height: 500px;
+        position: relative;
     }
 }
