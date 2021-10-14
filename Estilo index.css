@@ -231,6 +231,28 @@ h1.título3{
 
 /*Finaliza Contenido Total*/
 
+/*INICIA FOOTER*/
+
+footer{
+    display: block;
+    justify-content: center;
+    text-align: center;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.social a img{
+    width: 40px;
+    margin: 5px;
+}
+
+.contenedor{
+    margin-top: 15px;
+}
+
+/*FINALIZA FOOTER*/
+
+
 /*Diseño Responsive*/
 
 @media (max-width:768px) {
