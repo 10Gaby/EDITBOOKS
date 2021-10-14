@@ -123,23 +123,29 @@ div.título1{
 /*Finaliza Estilo Menú*/
 
 /*Inicia portada*/
-
 .portada{
-    padding-top: 60px;
-    background-image: url(IMG/1Portada.jpg);
-    height: 550px;
+    padding-top: 25px;
+}
+
+.bloque.parallax{
+    height: 600px;
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
-.portada h1{
+.bloque h1{
+    text-align: center;
+    margin: 0;
     font-size: 70px;
+    line-height: 600px;
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
+}
 
-    text-align: center;
-    margin-top: 200px;
+.parallax.image1{
+    background-image: url(IMG/1Portada.jpg);
 }
 
 .contenido-total{
@@ -211,8 +217,6 @@ div.título1{
 
 /*FINALIZA CONTENIDO TOTAL*/
 
-
-
 /*INICIA FOOTER*/
 
 footer{
@@ -233,3 +237,14 @@ footer{
 }
 
 /*FINALIZA FOOTER*/
+
+
+/*DISEÑO RESPONSIVE*/
+
+@media (max-width:768px){
+    
+    .portada h1{
+        font-size: 40px;
+        text-align: center;
+    }
+}
