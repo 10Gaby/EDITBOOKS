@@ -163,6 +163,11 @@ div.título1{
     margin-top: 60px;
 }
 
+#carrusel h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 .itemCarrusel{
     height: 300px;
     position: relative;
