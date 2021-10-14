@@ -251,6 +251,10 @@ footer{
     }
 
     .bloque.parallax{
-        height: 400px;
+        height: 300px;
+    }
+
+    .bloque h1{
+        line-height: 450px;
     }
 }
