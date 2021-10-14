@@ -242,4 +242,9 @@ h1.título3{
         margin: 40px;
     }
 
+    .sección3{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
 }
