@@ -151,6 +151,11 @@ div.título1{
 }
 
 /*sección3*/
+h1.título3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 .sección3{
     max-width: 920px;
     margin: 0 auto;
@@ -162,7 +167,7 @@ div.título1{
     margin: 20px;
     margin-bottom: 60px;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     padding-right: 30px;
     border: 2px solid black;
     border-radius: 8px;
@@ -185,9 +190,10 @@ div.título1{
     list-style: none;
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
+/*Llamada a la acción*/
 .llamada-acción{
     background: orange;
 }
