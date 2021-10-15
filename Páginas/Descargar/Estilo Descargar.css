@@ -152,6 +152,7 @@ div.título1{
     color: orange;
     font-size: 60px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .letras p{
@@ -209,3 +210,21 @@ video{
 }
 
 /*Finaliza Contenido*/
+
+
+/*Diseño Responsive para tablets*/
+
+@media screen and (min-width:769px) and (max-width: 865px) {
+    div.sub-header{
+        display: grid;
+        grid-template-columns: 70% 30%;
+    
+        width: 100%;
+        max-width: 800px;
+        margin: 0;
+    }
+
+    .letras{
+        max-height: 800px;
+    }
+}
