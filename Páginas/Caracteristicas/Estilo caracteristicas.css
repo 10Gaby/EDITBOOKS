@@ -158,7 +158,7 @@ div.título1{
 /*Carrusel*/
 
 #carrusel{
-    height: 300px;
+    height: 400px;
     overflow: hidden;
     margin-top: 60px;
 }
@@ -169,7 +169,7 @@ div.título1{
 }
 
 .itemCarrusel{
-    height: 300px;
+    height: 400px;
     position: relative;
 }
 
@@ -189,8 +189,8 @@ div.título1{
 
 .tarjetaCarrusel{
     height: 100%;
-    padding-right: 45px;
-    padding-left: 45px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 .contenedor-caja{
@@ -201,9 +201,19 @@ div.título1{
 .caja{
     border: 3px solid orange;
     border-radius: 8px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     text-align: center;
     padding: 20px;
+}
+
+.caja i{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.caja h3{
+    margin-bottom: 10px;
 }
 
 #carrusel a{
@@ -271,19 +281,27 @@ footer{
         width: 100%;
     
         display: flex;
-        padding-top: 180px;
+        padding-top: 250px;
         align-items: center;
         justify-content: space-evenly;
     }
 
     #carrusel{
-        height: 500px;
+        height: 970px;
         overflow: hidden;
         margin-top: 60px;
     }
 
     .itemCarrusel{
-        height: 500px;
+        height: 970px;
         position: relative;
+    }
+
+    .caja{
+        margin-bottom: 10px;
+    }
+
+    .caja i{
+        font-size: 40px;
     }
 }
