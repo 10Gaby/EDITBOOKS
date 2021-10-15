@@ -211,6 +211,21 @@ video{
 
 /*Finaliza Contenido*/
 
+/*Diseño Responsive para movil*/
+
+@media screen and (max-width:768px){
+    .letras{
+        width: 100%;
+    }
+
+    .letras h1{
+        font-size: 35px;
+    }
+
+    .letras p{
+        font-size: 20px;
+    }
+}
 
 /*Diseño Responsive para tablets*/
 
