@@ -227,6 +227,42 @@ div.título1{
 
 /*Finaliza sección1*/
 
+/*Llamada a la acción*/
+.llamada-acción{
+    background: orange;
+}
+
+.sub-llamada-acción{
+    max-width: 920px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    text-align: center;
+}
+
+.sub-llamada-acción h1{
+    margin-bottom: 40px;
+}
+
+.sub-llamada-acción p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.sub-llamada-acción a{
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    color: orange;
+    font-size: 20px;
+}
+
+.sub-llamada-acción a:hover{
+    color: orangered;
+    background: rgb(212, 212, 212);
+}
+
 /*INICIA CONTENIDO TOTAL*/
 
 
@@ -281,19 +317,19 @@ footer{
         width: 100%;
     
         display: flex;
-        padding-top: 250px;
+        padding-top: 290px;
         align-items: center;
         justify-content: space-evenly;
     }
 
     #carrusel{
-        height: 970px;
+        height: 850px;
         overflow: hidden;
         margin-top: 60px;
     }
 
     .itemCarrusel{
-        height: 970px;
+        height: 850px;
         position: relative;
     }
 
@@ -303,5 +339,13 @@ footer{
 
     .caja i{
         font-size: 40px;
+    }
+
+    .sub-llamada-acción{
+        max-width: 920px;
+        margin: 0 auto;
+        padding: 20px;
+    
+        text-align: center;
     }
 }
