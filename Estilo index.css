@@ -285,4 +285,10 @@ footer{
         margin: 0;
         padding: 10px;
     }
+
+    .sección1 img{
+        margin: 0 auto;
+        display: block;
+        width: 720px;
+    }
 }
