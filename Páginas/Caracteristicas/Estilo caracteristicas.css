@@ -292,7 +292,7 @@ footer{
 /*FINALIZA FOOTER*/
 
 
-/*DISEÑO RESPONSIVE*/
+/*Diseño Responsive Para Móvil*/
 
 @media (max-width:768px){
     
@@ -349,5 +349,19 @@ footer{
         padding: 20px;
     
         text-align: center;
+    }
+}
+
+/*Diseño Responsive para tablets*/
+
+@media screen and (min-width:769px) and (max-width: 865px) {
+    div.sub-header{
+        display: grid;
+        grid-template-columns: 70% 30%;
+    
+        width: 100%;
+        max-width: 800px;
+        margin: 0;
+        padding: 10px;
     }
 }
