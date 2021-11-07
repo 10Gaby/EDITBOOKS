@@ -206,28 +206,37 @@ form{
 
 .formulario input{
     width: 200px;
+    padding: .8em 1em;
+    font-size: 1rem;
 }
 
 textarea.mensaje{
-    width: 415px;
+    width: 450px;
     height: 150px;
+    resize: none;
+    font-size: 1rem;
+    padding: 15px;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 input.email{
-    width: 415px;
+    width: 440px;
 }
 
 input.enviar{
     display: block;
     margin: 0 auto;
     background-color: orange;
-    font-size: 17px;
+    font-size: 1.1rem;
 }
 
-select{
-    width: 230px;
+input.enviar:hover{
+    background: rgb(223, 145, 0);
+}
+
+input.solicitud{
+    width: 300px;
 }
 
 /*Información*/
